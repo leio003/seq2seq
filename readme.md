@@ -1,0 +1,1 @@
+一个基于seq2seq的对话系统，用于熟悉对话系统的训练方式，以及pytorch的dataset设置。数据集为dailydialog。

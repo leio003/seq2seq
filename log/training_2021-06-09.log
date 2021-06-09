@@ -1,0 +1,97 @@
+2021-06-09 16:53:33,521 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 1, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 16:53:33,608 - INFO - using device:cuda
+2021-06-09 16:53:49,195 - INFO - total training steps = 650
+2021-06-09 16:53:49,195 - INFO - starting training
+2021-06-09 16:54:26,692 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 1, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 16:54:26,725 - INFO - using device:cuda
+2021-06-09 16:54:29,440 - INFO - total training steps = 650
+2021-06-09 16:54:29,441 - INFO - starting training
+2021-06-09 16:54:55,635 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 1, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 16:54:55,663 - INFO - using device:cuda
+2021-06-09 16:54:58,340 - INFO - total training steps = 650
+2021-06-09 16:54:58,340 - INFO - starting training
+2021-06-09 16:55:38,254 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 1, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 16:55:38,285 - INFO - using device:cuda
+2021-06-09 16:55:40,886 - INFO - total training steps = 650
+2021-06-09 16:55:40,886 - INFO - starting training
+2021-06-09 16:56:00,053 - INFO - batch 384 of epoch 1, loss 0.3585418462753296
+2021-06-09 16:56:17,021 - INFO - batch 784 of epoch 1, loss 0.3666177988052368
+2021-06-09 16:56:32,798 - INFO - batch 1184 of epoch 1, loss 0.3693889379501343
+2021-06-09 16:56:47,650 - INFO - batch 1584 of epoch 1, loss 0.36713191866874695
+2021-06-09 16:57:02,128 - INFO - batch 1984 of epoch 1, loss 0.29988670349121094
+2021-06-09 16:57:16,025 - INFO - batch 2384 of epoch 1, loss 0.29350170493125916
+2021-06-09 16:57:29,281 - INFO - batch 2784 of epoch 1, loss 0.3139936327934265
+2021-06-09 16:57:42,347 - INFO - batch 3184 of epoch 1, loss 0.28177016973495483
+2021-06-09 16:57:54,913 - INFO - batch 3584 of epoch 1, loss 0.32192662358283997
+2021-06-09 16:58:07,341 - INFO - batch 3984 of epoch 1, loss 0.32518476247787476
+2021-06-09 16:58:19,767 - INFO - batch 4384 of epoch 1, loss 0.25054463744163513
+2021-06-09 16:58:31,872 - INFO - batch 4784 of epoch 1, loss 0.2722373604774475
+2021-06-09 16:58:43,924 - INFO - batch 5184 of epoch 1, loss 0.3095206022262573
+2021-06-09 16:58:55,691 - INFO - batch 5584 of epoch 1, loss 0.19724099338054657
+2021-06-09 16:59:07,315 - INFO - batch 5984 of epoch 1, loss 0.33305084705352783
+2021-06-09 16:59:18,636 - INFO - batch 6384 of epoch 1, loss 0.27222707867622375
+2021-06-09 16:59:29,872 - INFO - batch 6784 of epoch 1, loss 0.2352190762758255
+2021-06-09 16:59:40,786 - INFO - batch 7184 of epoch 1, loss 0.20178455114364624
+2021-06-09 16:59:51,648 - INFO - batch 7584 of epoch 1, loss 0.28510385751724243
+2021-06-09 17:00:02,838 - INFO - batch 7984 of epoch 1, loss 0.27934786677360535
+2021-06-09 17:00:14,210 - INFO - batch 8384 of epoch 1, loss 0.302847683429718
+2021-06-09 17:00:25,055 - INFO - batch 8784 of epoch 1, loss 0.2959742248058319
+2021-06-09 17:00:35,735 - INFO - batch 9184 of epoch 1, loss 0.21761390566825867
+2021-06-09 17:00:46,119 - INFO - batch 9584 of epoch 1, loss 0.20182619988918304
+2021-06-09 17:00:56,180 - INFO - batch 9984 of epoch 1, loss 0.2105988711118698
+2021-06-09 17:01:06,169 - INFO - batch 10384 of epoch 1, loss 0.1897495985031128
+2021-06-09 17:01:06,774 - INFO - epoch 1 finished
+2021-06-09 17:01:06,774 - INFO - time for one epoch: 0:05:25.883170
+2021-06-09 17:01:06,774 - INFO - saving model finally
+2021-06-09 17:01:08,076 - INFO - training finished
+2021-06-09 17:01:08,376 - INFO - starting evaluating
+2021-06-09 17:02:15,868 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 0, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 17:02:15,903 - INFO - using device:cuda
+2021-06-09 17:02:18,058 - INFO - starting evaluating
+2021-06-09 17:02:25,096 - INFO - finishing evaluating
+2021-06-09 17:04:05,711 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 0, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 17:04:05,745 - INFO - using device:cuda
+2021-06-09 17:04:13,622 - INFO - args config:
+{'no_cuda': False, 'train_path': 'data/dialogues_train.txt', 'test_path': 'data/dialogues_test.txt', 'log_path': 'log/training_2021-06-09.log', 'epochs': 1, 'batch_size': 4, 'hidden_size': 300, 'lr': 0.00015, 'log_step': 25, 'gradient_accumulation': 16, 'max_grad_norm': 1.0, 'dialogue_model_output_path': 'dialogue_model_2021-06-09/', 'writer_dir': 'tensorboard_summary/', 'seed': 42, 'num_workers': 0, 'embedding_path': 'embedding/glove.txt', 'num_words': 50000, 'dropout': 0.2, 'word2idx': 'embedding/word2idx.json'}
+2021-06-09 17:04:13,651 - INFO - using device:cuda
+2021-06-09 17:04:16,265 - INFO - total training steps = 650
+2021-06-09 17:04:16,265 - INFO - starting training
+2021-06-09 17:04:34,350 - INFO - batch 384 of epoch 1, loss 0.3585418462753296
+2021-06-09 17:04:51,249 - INFO - batch 784 of epoch 1, loss 0.3666177988052368
+2021-06-09 17:05:06,955 - INFO - batch 1184 of epoch 1, loss 0.3693889379501343
+2021-06-09 17:05:21,807 - INFO - batch 1584 of epoch 1, loss 0.36713191866874695
+2021-06-09 17:05:36,151 - INFO - batch 1984 of epoch 1, loss 0.29988670349121094
+2021-06-09 17:05:50,595 - INFO - batch 2384 of epoch 1, loss 0.29350170493125916
+2021-06-09 17:06:04,199 - INFO - batch 2784 of epoch 1, loss 0.3139936327934265
+2021-06-09 17:06:17,193 - INFO - batch 3184 of epoch 1, loss 0.28177016973495483
+2021-06-09 17:06:29,884 - INFO - batch 3584 of epoch 1, loss 0.32192662358283997
+2021-06-09 17:06:42,275 - INFO - batch 3984 of epoch 1, loss 0.32518476247787476
+2021-06-09 17:06:54,678 - INFO - batch 4384 of epoch 1, loss 0.25054463744163513
+2021-06-09 17:07:06,751 - INFO - batch 4784 of epoch 1, loss 0.2722373604774475
+2021-06-09 17:07:18,741 - INFO - batch 5184 of epoch 1, loss 0.3095206022262573
+2021-06-09 17:07:30,426 - INFO - batch 5584 of epoch 1, loss 0.19724099338054657
+2021-06-09 17:07:41,931 - INFO - batch 5984 of epoch 1, loss 0.33305084705352783
+2021-06-09 17:07:53,099 - INFO - batch 6384 of epoch 1, loss 0.27222707867622375
+2021-06-09 17:08:04,146 - INFO - batch 6784 of epoch 1, loss 0.2352190762758255
+2021-06-09 17:08:14,940 - INFO - batch 7184 of epoch 1, loss 0.20178455114364624
+2021-06-09 17:08:25,594 - INFO - batch 7584 of epoch 1, loss 0.28510385751724243
+2021-06-09 17:08:36,573 - INFO - batch 7984 of epoch 1, loss 0.27934786677360535
+2021-06-09 17:08:47,693 - INFO - batch 8384 of epoch 1, loss 0.302847683429718
+2021-06-09 17:08:58,468 - INFO - batch 8784 of epoch 1, loss 0.2959742248058319
+2021-06-09 17:09:08,990 - INFO - batch 9184 of epoch 1, loss 0.21761390566825867
+2021-06-09 17:09:19,306 - INFO - batch 9584 of epoch 1, loss 0.20182619988918304
+2021-06-09 17:09:29,274 - INFO - batch 9984 of epoch 1, loss 0.2105988711118698
+2021-06-09 17:09:39,209 - INFO - batch 10384 of epoch 1, loss 0.1897495985031128
+2021-06-09 17:09:39,780 - INFO - epoch 1 finished
+2021-06-09 17:09:39,780 - INFO - time for one epoch: 0:05:23.510641
+2021-06-09 17:09:39,780 - INFO - saving model finally
+2021-06-09 17:09:40,877 - INFO - training finished
+2021-06-09 17:09:40,955 - INFO - starting evaluating
+2021-06-09 17:09:47,789 - INFO - finishing evaluating
+2021-06-09 17:09:47,789 - INFO - eval loss:4.2825040211548675
