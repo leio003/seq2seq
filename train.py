@@ -39,7 +39,7 @@ def setup_train_args():
     parser.add_argument('--log_step', default=25, type=int, required=False, help='多少步汇报一次loss')
     parser.add_argument('--gradient_accumulation', default=16, type=int, required=False, help='梯度积累')
     parser.add_argument('--max_grad_norm', default=1.0, type=float, required=False)
-    parser.add_argument('--dialogue_model_output_path', default='dialogue_model/'.format(datetime.now().strftime('%Y-%m-%d')), type=str, required=False,
+    parser.add_argument('--dialogue_model_output_path', default='dialogue_model/', type=str, required=False,
                         help='对话模型输出路径')
     parser.add_argument('--writer_dir', default='tensorboard_summary/', type=str, required=False, help='Tensorboard路径')
     parser.add_argument('--seed', type=int, default=42, help='设置种子用于生成随机数，以使得训练的结果是确定的')
